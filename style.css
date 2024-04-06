@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 227, 227);
+}
+.main{
+    height: 80vh;
+    width: 75vw;
+    /* background-color: burlywood; */
+    display: grid;
+    grid-template-areas: "one one two five"
+                         "three four four five";
+    gap: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.64);
+    
+}
+.container1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(124, 40, 208);
+    grid-area: one;
+    border-radius: 1%;
+    background: linear-gradient(to right, #f1f2b5, #135058); 
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+     display: flex;
+    /*align-items: center;
+    justify-content: center; */
+    padding: 1rem;
+    flex-direction: column;
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+.img1{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    /* background-image: url(./Imam_Khamenei.jpeg);
+    border-radius: 50%;
+    background-position:center;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: top right 80%;
+    display: inline-block;
+    /* flex-direction: column; */
+    /* margin-left: 20px; */
+} 
+.name1{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.blog1{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(156, 30, 30);
+    /* align-self: center; */
+    /* margin-left: 200px; */
+}
+.container2{
+    height: 100%;
+    width: 100%;
+    grid-area: two;
+    background-color: rgb(45, 54, 66);
+    border-radius: 1%;
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* opacity: 10px; */
+    display: flex;
+}
+.img2{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    background-image: url(./Rahul.jpeg);
+    border-radius: 50%;
+    background-position:center;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: top right 50%;
+}
+.name2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(128, 212, 9);
+}
+.blog2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 30, 30);
+}
+.container3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 45, 78);
+    grid-area: three;
+    border-radius: 1%;
+    background-image: url(./Post_6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.img3{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    background-image: url(./doraemon.jpg);
+    border-radius: 50%;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right 80%;
+}
+.name3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(128, 212, 9);
+}
+.blog3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 30, 30);
+}
+.container4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(50, 20, 20);
+    grid-area: four;
+    border-radius: 1%;
+    background-image: url(./Ai_Post1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.img4{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    background-image: url(./Elon_musk.avif);
+    border-radius: 50%;
+    background-position:center;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: top right 50%;
+}
+.name4{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(128, 212, 9);
+}
+.blog4{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 30, 30);
+}
+.container5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 247, 232);
+    grid-area: five;
+    border-radius: 1%;
+    background-image: url(./POst_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.img5{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    background-image: url(./ford.jpeg);
+    border-radius: 50%;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right 80%;
+}
+.name5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(128, 212, 9);
+}
+.blog5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(110, 30, 30);
+}
